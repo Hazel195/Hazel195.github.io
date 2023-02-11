@@ -135,6 +135,8 @@ html {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
 }
 .gla_top_menu_mobile_link {
 	display: none;
