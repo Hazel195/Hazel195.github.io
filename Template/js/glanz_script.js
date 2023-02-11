@@ -458,6 +458,7 @@
 	});
 
 
+
 	/*Scroll Effect*/
 	$('.gla_go').on("click", function(e){
 		var anchor = $(this);
