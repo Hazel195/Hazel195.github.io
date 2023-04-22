@@ -222,16 +222,10 @@
                                     <label>Your name*</label>
                                     <input type="text" name="name" class="form-control form-opacity">
                                 </div>
-                                <div class="col-md-6">
-                                    <label>Bringing car?*</label>
-                                    <select name="car" class="form-control form-opacity">
-                                        <option value="yes_car">Yes</option>
-                                        <option value="no_car">No</option>
-                                    </select>
-                                </div>
+                                
                   
                                 <div class="col-md-6">
-                                    <label>Will you attend?</label>
+                                    <label>Will you attend?*</label>
 
                                     <input type="radio" name="attend" value="Yes, I will be there">
                                     <span>Yes, I will be there</span><br>
@@ -239,10 +233,17 @@
                                     <span>Sorry, I can't come</span>
                                     
                                 </div>
-                                
+                                <div class="col-md-6">
+                                    <label>Bringing car?*</label>
+                                    <select name="car" class="form-control form-opacity">
+                                        
+                                        <option value="no_car">No</option>
+                                        <option value="yes_car">Yes</option>
+                                    </select>
+                                </div>
                                 <div class="col-md-12">
                                     <label>Notes</label>
-                                    <textarea name="message" class="form-control form-opacity" placeholder="If you have any food allergies or dietary requirements, please let us know."></textarea>
+                                    <textarea name="message" class="form-control form-opacity" placeholder="If you have any food allergies or dietary requirements, please let us know!"></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <input type="submit" class="btn submit" value="Send">
